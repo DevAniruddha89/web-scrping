@@ -5,35 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<!--  es may parents key childern ka rule lge  ga  -->
 <style>
-div>p>span   {
-    color: blue
- 
-    }
+/*  classses destnition */
+
+div.c1>p{
+    color: blue;
+}
 </style>
+
+
+
 
 </head>
 <body>
-    
-<!--  select ' i  am' the direct son and make it be  -->
-
-<div> 
-<p> 
-<span> i am the direct son </span>
-
-</p>
-
-</div>
-
-<div> 
+    <div class = " c1 "> 
+<div>
+<div>
 <span> 
-<p> i am the indrect son </p>
-
+    <div class="c2"> i am here.find </div>
 </span>
 
-</div>
 
+</div>
+</div>
+<span>
+    <div class="c2"> dont select me </div>
+</span>
 
 </body>
 </html>
